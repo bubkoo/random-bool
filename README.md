@@ -47,31 +47,23 @@ Look at the following special examples:
 var randomBool = require('random-bool');
 
 randomBool(0, 1, true);
-// => false
+// => always return false
 
 randomBool(1, 0, true);
-// => true
+// => always return true
 
 randomBool(-1, 0, true);
-// => true
+// => always return true
 
 randomBool(0, 0, true);
-// => true
+// => always return true
 
 randomBool(-1, -1, true);
-// => true
+// => always return true
 ```
 
 
 ## Related
 
-- [random-char](https://github.com/bubkoo/random-char)
-- [random-tld](https://github.com/bubkoo/random-tld)
-- [random-email](https://github.com/bubkoo/random-email)
-- [random-lang](https://github.com/bubkoo/random-lang)
-- [random-mobile](https://github.com/bubkoo/random-mobile)
-- [random-zipcode](https://github.com/bubkoo/random-zipcode)
-- [pick-some](https://github.com/bubkoo/pick-some)
-- [pick-some-keys](https://github.com/bubkoo/pick-some-keys)
-- [pick-some-values](https://github.com/bubkoo/pick-some-values)
+
 

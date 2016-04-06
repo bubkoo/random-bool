@@ -23,9 +23,21 @@
     "randomize",
     "rand",
     "bool",
-    "boolean"
+    "boolean",
+    "int",
+    "integer",
+    "num",
+    "number",
+    "max",
+    "min",
+    "math",
+    "natural",
+    "number"
   ],
-  "author": "bubkoo",
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bubkoo/random-bool/issues"
