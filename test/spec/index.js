@@ -1,3 +1,5 @@
+'use strict';
+
 var char   = require('chai');
 var expect = char.expect;
 

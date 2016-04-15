@@ -12,7 +12,7 @@
 ## Install
 
 ```
-$ npm install random-bool --save
+$ npm install --save random-bool 
 ```
 
 

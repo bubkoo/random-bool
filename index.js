@@ -3,7 +3,9 @@
 
 function fixSeed(seed) {
 
-  seed = parseInt(seed, 10);
+  if (typeof seed !== 'number') {
+    seed = parseInt(seed, 10);
+  }
 
   return isNaN(seed) || !isFinite(seed) ? 1 : seed;
 }

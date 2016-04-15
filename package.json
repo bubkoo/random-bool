@@ -20,19 +20,15 @@
     "generate",
     "gen",
     "random",
+    "randomly",
     "randomize",
     "rand",
     "bool",
     "boolean",
-    "int",
-    "integer",
-    "num",
     "number",
     "max",
     "min",
-    "math",
-    "natural",
-    "number"
+    "math"
   ],
   "author": {
     "name": "bubkoo",
