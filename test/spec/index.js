@@ -1,12 +1,9 @@
-'use strict';
-
-var char   = require('chai');
-var expect = char.expect;
+var expect = require('chai').expect;
 
 
 describe('random-bool', function () {
 
-  var randomBool = require('../../index');
+  var randomBool = require('../../');
 
   it('randomBool()', function () {
     expect(randomBool()).to.be.a('boolean');
