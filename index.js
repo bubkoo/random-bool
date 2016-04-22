@@ -1,28 +1,12 @@
 'use strict';
 
+var nil = require('is-nil');
 
-function fixSeed(seed) {
+module.exports = function (likelihood) {
 
-  if (typeof seed !== 'number') {
-    seed = parseInt(seed, 10);
-  }
-
-  return isNaN(seed) || !isFinite(seed) ? 1 : seed;
-}
-
-
-module.exports = function (seed1, seed2, ref) {
-
-  if (arguments.length === 0) {
+  if (nil(likelihood)) {
     return Math.random() >= 0.5;
   }
 
-  seed1 = fixSeed(seed1);
-  seed2 = fixSeed(seed2);
-
-  if ((seed1 + seed2) === 0) {
-    return !!ref;
-  }
-
-  return Math.random() >= seed1 / (seed1 + seed2) ? !ref : !!ref;
+  return Math.random() * 100 < likelihood;
 };
