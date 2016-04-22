@@ -18,7 +18,7 @@ $ npm install --save random-bool
 
 ## Usage
 
-> For more use-cases see the [tests](https://github.com/mock-end/random-bool/blob/master/test/spec/index.js)
+> For more use-cases see the [tests](https://github.com/mock-end/random-bool/blob/master/test/spec/index.js).
 
 
 ```js
