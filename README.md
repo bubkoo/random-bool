@@ -31,7 +31,8 @@ var randomBool = require('random-bool');
 
 randomBool(); 
 // => true
-// The default likelihood of success (returning true) is 50%. Can optionally specify the likelihood in percent:
+// The default likelihood of success (returning true) is 50%. 
+// Can optionally specify the likelihood in percent:
 
 randomBool(30);
 // => false
