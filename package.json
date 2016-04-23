@@ -1,6 +1,6 @@
 {
   "name": "random-bool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Return a random boolean value (true or false).",
   "main": "index.js",
   "scripts": {
