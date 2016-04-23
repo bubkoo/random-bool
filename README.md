@@ -40,11 +40,6 @@ randomBool(30);
 ```
 
 
-## Related
-
-
-
-
 ## Contributing
 
 Pull requests and stars are highly welcome.
