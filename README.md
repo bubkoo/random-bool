@@ -20,24 +20,43 @@ $ npm install --save random-bool
 
 > For more use-cases see the [tests](https://github.com/mock-end/random-bool/blob/master/test/spec/index.js).
 
-
 ```js
 var randomBool = require('random-bool');
 
 // API
-// - randomBool()
-// - randomBool(likelihood)
+// - randomBool([options])
 
+// options
+// - likelihood
+```
 
+The default likelihood of success (returning `true`) is `50%`:
+
+```js
 randomBool(); 
 // => true
-// The default likelihood of success (returning true) is 50%. 
-// Can optionally specify the likelihood in percent:
-
-randomBool(30);
-// => false
-// In this case only a 30% likelihood of true, and a 70% likelihood of false.
 ```
+
+Can optionally specify the likelihood in percent:
+
+```js
+randomBool({ likelihood: 30 });
+// => false
+```
+
+In this case only a `30%` likelihood of `true`, and a `70%` likelihood of `false`.
+
+## Related
+
+- [random-integral](https://github.com/mock-end/random-integral) - Return a random integer.
+- [random-natural](https://github.com/mock-end/random-natural) - Return a random natural number.
+- [random-char](https://github.com/mock-end/random-char) - Return a random char.
+- [random-index](https://github.com/mock-end/random-index) - Return a random array-like index.
+- [random-decimal](https://github.com/mock-end/random-decimal) - Return a random decimal.
+- [random-binary](https://github.com/mock-end/random-binary) - Return a random binary number.
+- [random-octal](https://github.com/mock-end/random-octal) - Return a random octal number.
+- [random-hexadecimal](https://github.com/mock-end/random-hexadecimal) - Return a random hexadecimal number.
+- [random-unicode](https://github.com/mock-end/random-unicode) - Return a random unicode. 
 
 
 ## Contributing
